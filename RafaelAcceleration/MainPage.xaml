@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:RafaelAcceleration.ViewModels" xmlns:model="clr-namespace:RafaelAcceleration.Models"
+             Title="{Binding Title}"
+             x:Class="RafaelAcceleration.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Step counter by Rafael" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <RefreshView x:DataType="local:MainViewModel" Command="{Binding LoadItemds}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+            <Grid Padding="0, 20, 0, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer>
+
+                    </TapGestureRecognizer>
+                </Grid.GestureRecognizers>
+                <BoxView  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                <Image Source="{Binding StepImage}" Aspect="AspectFit" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Step counter" 
+                            HorizontalOptions="Center"
+                            FontSize="25" />
+                <Label Text="{Binding StepCounter, Mode=TwoWay}" 
+                            HorizontalOptions="Center"
+                            Padding="0, 30, 0, 0"
+                            FontAttributes="Bold"
+                            FontSize="20" />
+                <BoxView Grid.Column="1" />
+                <Image Grid.Column="1" Source="{Binding ActivityImage}" Aspect="AspectFit" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100"/>
+                <Label Grid.Column="1" Text="Activity" 
+                            HorizontalOptions="Center"
+                            FontSize="25" />
+                <Label Grid.Column="1" Text="{Binding ActivityDetector, Mode=TwoWay}" 
+                            HorizontalOptions="Center"
+                            Padding="0, 30, 0, 0"
+                            FontAttributes="Bold"
+                            FontSize="20" />
+                <BoxView Grid.Row="1"
+                 Grid.ColumnSpan="2" HorizontalOptions="Center" />
+                <Button x:Name="UpdateBtn" Text="{Binding ButtonTitle}" Grid.Row="1" Grid.ColumnSpan="2"  WidthRequest="100" Command="{Binding onUpdateUI}"/>
+            </Grid>
+        </RefreshView>
+
+    </StackLayout>
+
+</ContentPage>

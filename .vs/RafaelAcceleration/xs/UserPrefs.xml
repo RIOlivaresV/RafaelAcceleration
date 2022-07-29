@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{C6225D89-6963-493A-B3BB-47822EB946A4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RafaelAcceleration.Android/Properties/AndroidManifest.xml">
+    <Files>
+      <File FileName="RafaelAcceleration/ViewModels/MainViewModel.cs" Line="35" Column="26" />
+      <File FileName="RafaelAcceleration/MainPage.xaml.cs" Line="27" Column="38" />
+      <File FileName="RafaelAcceleration/MainPage.xaml" Line="4" Column="37" />
+      <File FileName="RafaelAcceleration.Android/Service/StepCounter.cs" Line="87" Column="12" />
+      <File FileName="RafaelAcceleration/Interfaces/IStepCounterRafa.cs" />
+      <File FileName="RafaelAcceleration.Android/MainActivity.cs" Line="32" Column="140" />
+      <File FileName="RafaelAcceleration/ViewModels/BaseViewModel.cs" Line="7" Column="31" />
+      <File FileName="RafaelAcceleration/Models/Item.cs" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1768" Column="3" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Legacy.targets" Line="252" Column="5" />
+      <File FileName="RafaelAcceleration.Android/Properties/AndroidManifest.xml" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RafaelAcceleration" expanded="True">
+            <Node name="RafaelAcceleration" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="RafaelAcceleration.Android" expanded="True">
+              <Node name="Properties" expanded="True">
+                <Node name="AndroidManifest.xml" selected="True" />
+              </Node>
+              <Node name="Service" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RafaelAcceleration.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.8A3Y0EWLN" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rafaelolivaresvalencia/Code/RafaelAcceleration/RafaelAcceleration/RafaelAcceleration/ViewModels/MainViewModel.cs" relfile="RafaelAcceleration/ViewModels/MainViewModel.cs" line="85" column="1" />
+      <Breakpoint file="/Users/rafaelolivaresvalencia/Code/RafaelAcceleration/RafaelAcceleration/RafaelAcceleration/ViewModels/MainViewModel.cs" relfile="RafaelAcceleration/ViewModels/MainViewModel.cs" line="43" column="1" />
+      <Breakpoint file="/Users/rafaelolivaresvalencia/Code/RafaelAcceleration/RafaelAcceleration/RafaelAcceleration/MainPage.xaml.cs" relfile="RafaelAcceleration/MainPage.xaml.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
